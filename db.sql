@@ -38,3 +38,10 @@ create table commentaire (
     foreign key (id_article) references article (id_article) , 
     foreign key (username) references utilisateur (username)
     );
+
+
+
+
+
+
+    SELECT * from article ;
